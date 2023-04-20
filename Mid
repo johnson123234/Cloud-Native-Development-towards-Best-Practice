@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ride-Sharing Platform</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		
+		header {
+			background-color: #000;
+			color: #fff;
+			padding: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		h1 {
+			margin: 0;
+		}
+		
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			align-items: center;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		nav a:hover {
+			color: #f8c30e;
+		}
+		
+		main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		section {
+			flex-basis: 45%;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+		
+		h2 {
+			margin-top: 0;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		
+		input[type="text"] {
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+		}
+		
+		button[type="submit"] {
+			background-color: #f8c30e;
+			color: #fff;
+			padding: 10px 20px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: all 0.2s ease-in-out;
+		}
+		
+		button[type="submit"]:hover {
+			background-color: #000;
+		}
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		li {
+			margin-bottom: 10px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Start a nice trip</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>UBER</h2>
+			<form>
+				<label for="from">From:</label>
+				<input type="text" id="from" name="from"><br><br>
+				<label for="to">To:</label>
+				<input type="text" id="to" name="to"><br><br>
+				<button type
+
+
+
